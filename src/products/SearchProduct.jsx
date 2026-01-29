@@ -19,8 +19,6 @@ export default function SearchProducts(props) {
                     {formState.errors?.productName?alert("product name is required"):""}
                     <input type="submit" className="btn btn-primary ms-2"/>
                 </div> 
-                
-                
             </form>
         </div>
     )
